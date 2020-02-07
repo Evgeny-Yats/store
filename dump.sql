@@ -272,7 +272,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `created_at`, `updated_at`, `name`, `value`) VALUES
-(1, '2018-07-06 12:23:51', '2018-07-08 12:54:30', 'order_email', 'sheekanov@gmail.com');
+(1, '2018-07-06 12:23:51', '2018-07-08 12:54:30', 'order_email', 'testtest-20@mail.ru');
 
 -- --------------------------------------------------------
 
@@ -296,7 +296,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'sheekanov', 'sheekanov@gmail.com', '$2y$10$XwVPOrpot/Ynyquci5S.BORZ9tRFTrmg8qt.nt2ftsbh5XPnsGFGS', 1, 'sJGiblGHwH21QOI9KWr093pdc1poQ0D1KotH2K2mzRcbNBOma9gC2sPB5PzY', '2018-07-06 12:23:20', '2018-07-06 12:23:20');
+(1, 'test', 'testtest-20@mail.ru', '$2y$10$XwVPOrpot/Ynyquci5S.BORZ9tRFTrmg8qt.nt2ftsbh5XPnsGFGS', 1, 'sJGiblGHwH21QOI9KWr093pdc1poQ0D1KotH2K2mzRcbNBOma9gC2sPB5PzY', '2018-07-06 12:23:20', '2018-07-06 12:23:20');
 
 --
 -- Индексы сохранённых таблиц

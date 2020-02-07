@@ -13,7 +13,7 @@ class SettingsTableSeeder extends Seeder
     {
         $orderEmail = new \App\Setting();
         $orderEmail->name = 'order_email';
-        $orderEmail->value = 'sheekanov@gmail.com';
+        $orderEmail->value = 'testtest-20@mail.ru';
         $orderEmail->save();
 
     }
